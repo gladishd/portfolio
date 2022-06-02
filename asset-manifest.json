@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio-create-react-app/static/css/main.d6bd6eb8.css",
+    "main.js": "/portfolio-create-react-app/static/js/main.e69fc997.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio-create-react-app/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/portfolio-create-react-app/index.html",
+    "main.d6bd6eb8.css.map": "/portfolio-create-react-app/static/css/main.d6bd6eb8.css.map",
+    "main.e69fc997.js.map": "/portfolio-create-react-app/static/js/main.e69fc997.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio-create-react-app/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6bd6eb8.css",
+    "static/js/main.e69fc997.js"
+  ]
+}
