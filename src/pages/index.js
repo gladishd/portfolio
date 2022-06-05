@@ -9,10 +9,10 @@ const Pages = ({ user }) => {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<Me user={user} />} />
-        <Route path="/projects" element={<Projects user={user} />} />
-        <Route path="/work" element={<Work user={user} />} />
-        <Route path="/education" element={<Education user={user} />} />
+        <Route exact path="/portfolio/" element={<Me user={user} />} />
+        <Route path="/portfolio/projects" element={<Projects user={user} />} />
+        <Route path="/portfolio/work" element={<Work user={user} />} />
+        <Route path="/portfolio/education" element={<Education user={user} />} />
       </Routes>
     </Router>
   );
