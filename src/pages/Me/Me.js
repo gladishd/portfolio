@@ -24,7 +24,7 @@ const Me = ({ user }) => {
           {user.basics.profiles.map((profile, i) => (
             <ProfileLink key={profile.network}>
               {i !== 0 && ' | '}
-              <a href={profile.url} target="_blank" rel="noreferrer noopener">
+              <a href={profile.url} target="_blank" rel="noreferrer noopener" style={{ color: "#2eec40" }}>
                 {profile.network}
               </a>
             </ProfileLink>
