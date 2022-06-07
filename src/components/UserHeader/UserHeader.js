@@ -36,7 +36,7 @@ const UserHeader = ({ user }) => {
       </Header>
       <div>
         <ViewResumeLink
-          href={`https://github.com/${user.basics.username}/portfolio/blob/main/public/dean-resume.pdf`}
+          href={`https://github.com/${user.basics.username}/portfolio/blob/main/public/resume-dean.pdf`}
           target="_blank"
           rel="noopener noreferrer"
         >
