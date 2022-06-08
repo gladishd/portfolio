@@ -18,6 +18,9 @@ const UserHeader = ({ user }) => {
               href={`https://gitconnected.com/${user.basics.username}`}
               target="_blank"
               rel="noreferrer noopener"
+              style={{
+                color: "#2ecc40"
+              }}
             >
               @{user.basics.username}
             </a>
@@ -28,7 +31,9 @@ const UserHeader = ({ user }) => {
           <p>{user.basics.headline}</p>
           <p>
             Blog:{' '}
-            <a href={user.basics.blog} target="_blank" rel="noreferrer noopener">
+            <a href={user.basics.blog} target="_blank" rel="noreferrer noopener" style={{
+              color: "#2ecc40"
+            }}>
               {user.basics.blog}
             </a>
           </p>
